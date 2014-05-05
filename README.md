@@ -9,9 +9,9 @@ ChatSystem is originally for a school individual machine project/assignment unde
 ##Usage
 
 #####Installation
-To use ChatSystem, you must first download the ZIP file of this repository or pull this repository from github. If your system supports .exe files then you can just use the .exe files and disregard the rest. If your system does not support .exe files, then you need to install JRE(Java Runtime Environment) to run the .jar files instead. 
+To use ChatSystem, you must first __download the ZIP__ file of this repository or __pull this repository__ from github. If your system supports __.exe__ files then you can just use the .exe files and disregard the rest. If your system does not support .exe files, then you need to install __JRE__(Java Runtime Environment) to run the __.jar__ files instead. 
 
-To successfully create a private chat session, a ChatSystem-server must first be running. If you wish to host the chat session, you must first run the MyServer.exe or MyServer.jar. Then clients/users may now connect. Each user should just need to double click their MyClient.exe or MyClient.jar and enter the server's public/local IP (depending on where they are connected) and they're now part of the chat session.
+To successfully create a private chat session, a ChatSystem-server must first be running. If you wish to host the chat session, you must first run the __MyServer.exe or MyServer.jar__. To ensure that all clients, local or through the internet, will be able to connect to the server, the host running the ChatSystem-server must __enable portforwarding at least for port 8080__.  Then clients/users may now connect. Each user should just need to double click their __MyClient.exe or MyClient.jar__ and enter the server's public/local IP (depending on where they are connected) and they're now part of the chat session.
 
 #####Basic Functionalities in Chat System:
 >1.) __Send__ button will send the text in the text area at the left of this button to the server to other users/specific users
