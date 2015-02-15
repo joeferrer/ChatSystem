@@ -25,3 +25,5 @@ To successfully create a private chat session, a ChatSystem-server must first be
 > - __/whisper__ _clientname_ will send your message in the the message text area at the left side of the send button to the specific user named _clientname_ .
 ><br>
 >- __/quit__ will terminate your connection as a user and close your chat window.
+
+<br/>
